@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fuckrm/CLionProjects/untitled/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+/home/fuckrm/CLionProjects/untitled/main.cpp
+iostream
+-
+SortTestHelper.h
+/home/fuckrm/CLionProjects/untitled/SortTestHelper.h
+
